@@ -1,0 +1,104 @@
+[
+  {
+    "id": "form-job-001-v1",
+    "jobId": "job-001",
+    "name": "Senior React Developer Application",
+    "status": "PUBLISHED",
+    "version": 1,
+    "fields": [
+      { "id": "field-job-001-full-name", "key": "full_name", "label": "Full Name", "type": "TEXT", "required": true, "placeholder": "Your full name" },
+      { "id": "field-job-001-email", "key": "email", "label": "Email", "type": "EMAIL", "required": true, "placeholder": "you@example.com" },
+      { "id": "field-job-001-phone", "key": "phone", "label": "Phone", "type": "PHONE", "required": true, "placeholder": "+1 555 0100" },
+      { "id": "field-job-001-current-position", "key": "current_position", "label": "Current Position", "type": "TEXT", "required": false, "placeholder": "Frontend Developer" },
+      { "id": "field-job-001-years-experience", "key": "years_experience", "label": "Years of Experience", "type": "NUMBER", "required": true, "helpText": "Enter your total professional experience in years." },
+      { "id": "field-job-001-location", "key": "location", "label": "Location", "type": "TEXT", "required": true, "placeholder": "City, Country" },
+      {
+        "id": "field-job-001-skills",
+        "key": "skills",
+        "label": "Skills",
+        "type": "MULTI_SELECT",
+        "required": true,
+        "helpText": "Select all skills that reflect your professional experience.",
+        "options": [
+          { "id": "option-job-001-react", "label": "React", "value": "React" },
+          { "id": "option-job-001-typescript", "label": "TypeScript", "value": "TypeScript" },
+          { "id": "option-job-001-javascript", "label": "JavaScript", "value": "JavaScript" },
+          { "id": "option-job-001-nodejs", "label": "Node.js", "value": "Node.js" },
+          { "id": "option-job-001-nextjs", "label": "Next.js", "value": "Next.js" },
+          { "id": "option-job-001-rest-api", "label": "REST API Integration", "value": "REST API Integration" },
+          { "id": "option-job-001-automated-testing", "label": "Automated Testing", "value": "Automated Testing" },
+          { "id": "option-job-001-vitest", "label": "Vitest", "value": "Vitest" },
+          { "id": "option-job-001-playwright", "label": "Playwright", "value": "Playwright" }
+        ]
+      },
+      { "id": "field-job-001-motivation", "key": "motivation", "label": "Why are you interested in this role?", "type": "TEXTAREA", "required": true, "placeholder": "Tell us what interests you about this role." },
+      { "id": "field-job-001-best-project", "key": "best_project", "label": "Tell us about your best project.", "type": "TEXTAREA", "required": true, "placeholder": "Describe your role, decisions, and outcome." },
+      { "id": "field-job-001-problem-solving", "key": "problem_solving", "label": "Describe a difficult problem you solved.", "type": "TEXTAREA", "required": true, "placeholder": "Explain the problem, your approach, and the result." },
+      { "id": "field-job-001-cv", "key": "cv", "label": "CV / Resume", "type": "FILE", "required": true, "helpText": "Provide the selected file name as demo metadata." }
+    ],
+    "createdAt": "2026-07-10T09:15:00Z",
+    "updatedAt": "2026-07-10T10:00:00Z"
+  },
+  {
+    "id": "form-job-002-v1",
+    "jobId": "job-002",
+    "name": "UI/UX Designer Application",
+    "status": "PUBLISHED",
+    "version": 1,
+    "fields": [
+      { "id": "field-job-002-full-name", "key": "full_name", "label": "Full Name", "type": "TEXT", "required": true },
+      { "id": "field-job-002-email", "key": "email", "label": "Email", "type": "EMAIL", "required": true },
+      { "id": "field-job-002-phone", "key": "phone", "label": "Phone", "type": "PHONE", "required": true },
+      { "id": "field-job-002-portfolio-url", "key": "portfolio_url", "label": "Portfolio URL", "type": "TEXT", "required": true, "placeholder": "https://portfolio.example.com" },
+      {
+        "id": "field-job-002-design-tools",
+        "key": "design_tools",
+        "label": "Design Tools",
+        "type": "MULTI_SELECT",
+        "required": true,
+        "options": [
+          { "id": "option-job-002-figma", "label": "Figma", "value": "Figma" },
+          { "id": "option-job-002-sketch", "label": "Sketch", "value": "Sketch" },
+          { "id": "option-job-002-illustrator", "label": "Illustrator", "value": "Illustrator" },
+          { "id": "option-job-002-photoshop", "label": "Photoshop", "value": "Photoshop" }
+        ]
+      },
+      { "id": "field-job-002-design-process", "key": "design_process", "label": "Design Process", "type": "TEXTAREA", "required": true },
+      { "id": "field-job-002-best-project", "key": "best_design_project", "label": "Best Design Project", "type": "TEXTAREA", "required": true },
+      { "id": "field-job-002-cv", "key": "cv", "label": "CV / Resume", "type": "FILE", "required": true }
+    ],
+    "createdAt": "2026-07-11T09:45:00Z",
+    "updatedAt": "2026-07-11T10:20:00Z"
+  },
+  {
+    "id": "form-job-003-v1",
+    "jobId": "job-003",
+    "name": "Backend Developer Application",
+    "status": "DRAFT",
+    "version": 1,
+    "fields": [
+      { "id": "field-job-003-full-name", "key": "full_name", "label": "Full Name", "type": "TEXT", "required": true },
+      { "id": "field-job-003-email", "key": "email", "label": "Email", "type": "EMAIL", "required": true },
+      { "id": "field-job-003-phone", "key": "phone", "label": "Phone", "type": "PHONE", "required": true },
+      {
+        "id": "field-job-003-backend-technologies",
+        "key": "backend_technologies",
+        "label": "Backend Technologies",
+        "type": "MULTI_SELECT",
+        "required": true,
+        "options": [
+          { "id": "option-job-003-nodejs", "label": "Node.js", "value": "Node.js" },
+          { "id": "option-job-003-python", "label": "Python", "value": "Python" },
+          { "id": "option-job-003-java", "label": "Java", "value": "Java" },
+          { "id": "option-job-003-go", "label": "Go", "value": "Go" }
+        ]
+      },
+      { "id": "field-job-003-database-experience", "key": "database_experience", "label": "Database Experience", "type": "TEXTAREA", "required": true },
+      { "id": "field-job-003-api-design", "key": "api_design_experience", "label": "API Design Experience", "type": "TEXTAREA", "required": true },
+      { "id": "field-job-003-production-incident", "key": "production_incident", "label": "Production Incident Example", "type": "TEXTAREA", "required": true },
+      { "id": "field-job-003-cv", "key": "cv", "label": "CV / Resume", "type": "FILE", "required": true }
+    ],
+    "createdAt": "2026-07-12T09:00:00Z",
+    "updatedAt": "2026-07-12T09:00:00Z"
+  }
+]

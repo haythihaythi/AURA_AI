@@ -1,0 +1,283 @@
+[
+  {
+    "id": "evaluation-screening-001",
+    "applicationId": "application-001",
+    "evaluationType": "SCREENING",
+    "status": "COMPLETED",
+    "overallScore": 91.7,
+    "recommendation": "STRONG_YES",
+    "confidence": 93,
+    "summary": "John closely matches the senior frontend requirements, with four years of React delivery, TypeScript experience, project ownership, and a measurable performance improvement example.",
+    "strengths": [
+      {
+        "id": "insight-screening-001-strength-01",
+        "title": "Strong production React background",
+        "description": "The application and CV show sustained React and TypeScript work on a multi-site operational product.",
+        "evidence": [
+          { "sourceType": "DOCUMENT", "sourceId": "document-001-cv", "excerpt": "Four years of production React development with TypeScript and REST API integration." },
+          { "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-001-project", "excerpt": "I led the frontend development of an inventory platform used across twelve warehouses." }
+        ]
+      },
+      {
+        "id": "insight-screening-001-strength-02",
+        "title": "Evidence-based problem solving",
+        "description": "John describes diagnosing and measuring a meaningful frontend performance improvement.",
+        "evidence": [
+          { "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-001-problem-solving", "excerpt": "I traced slow dashboard renders to repeated data transformations and reduced interaction latency by 45 percent." }
+        ]
+      }
+    ],
+    "concerns": [
+      {
+        "id": "insight-screening-001-concern-01",
+        "title": "Limited automated testing evidence",
+        "description": "The submitted materials do not explain the depth of John's test strategy or testing ownership.",
+        "evidence": [
+          { "sourceType": "DOCUMENT", "sourceId": "document-001-cv", "excerpt": "Testing tools are listed, but ownership of an automated testing strategy is not described." }
+        ]
+      }
+    ],
+    "criterionScores": [
+      { "criterionKey": "technical_skills", "name": "Technical Skills", "weight": 35, "score": 94, "rationale": "Strong evidence across React, TypeScript, Next.js, and REST API integration.", "evidence": [{ "sourceType": "DOCUMENT", "sourceId": "document-001-cv", "excerpt": "React, TypeScript, Next.js, and REST API integration across production projects." }] },
+      { "criterionKey": "relevant_experience", "name": "Relevant Experience", "weight": 25, "score": 92, "rationale": "Four years of directly relevant frontend experience with delivery ownership.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-001-experience", "excerpt": "Four years of experience." }] },
+      { "criterionKey": "problem_solving", "name": "Problem Solving", "weight": 20, "score": 90, "rationale": "Provides a specific diagnosis, intervention, and measurable outcome.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-001-problem-solving", "excerpt": "Reduced interaction latency by 45 percent after tracing repeated transformations." }] },
+      { "criterionKey": "communication", "name": "Communication", "weight": 10, "score": 88, "rationale": "Answers are clear, structured, and specific about personal contribution.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-001-project", "excerpt": "I led the frontend development of an inventory platform used across twelve warehouses." }] },
+      { "criterionKey": "role_motivation", "name": "Role Motivation", "weight": 10, "score": 90, "rationale": "Motivation aligns with product ownership and team mentorship.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-001-motivation", "excerpt": "I want to lead the development of reliable React products while mentoring a growing frontend team." }] }
+    ],
+    "createdAt": "2026-07-12T10:20:00Z"
+  },
+  {
+    "id": "evaluation-screening-002",
+    "applicationId": "application-002",
+    "evaluationType": "SCREENING",
+    "status": "COMPLETED",
+    "overallScore": 84,
+    "recommendation": "YES",
+    "confidence": 88,
+    "summary": "Mary meets the core React and TypeScript requirements, adds useful automated testing experience, and provides a credible API debugging example, though senior-level ownership should be explored.",
+    "strengths": [
+      {
+        "id": "insight-screening-002-strength-01",
+        "title": "Balanced frontend skill set",
+        "description": "Mary combines the required frontend stack with practical Vitest experience.",
+        "evidence": [
+          { "sourceType": "DOCUMENT", "sourceId": "document-002-cv", "excerpt": "Three years building React and TypeScript applications with REST APIs and Vitest." },
+          { "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-002-project", "excerpt": "I rebuilt a customer support portal in React and TypeScript and added Vitest coverage." }
+        ]
+      },
+      {
+        "id": "insight-screening-002-strength-02",
+        "title": "Practical API debugging",
+        "description": "Her example identifies a concrete React lifecycle issue and a focused resolution.",
+        "evidence": [
+          { "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-002-problem-solving", "excerpt": "I diagnosed duplicate REST requests caused by effect dependencies." }
+        ]
+      }
+    ],
+    "concerns": [
+      {
+        "id": "insight-screening-002-concern-01",
+        "title": "Senior ownership needs verification",
+        "description": "The application demonstrates solid delivery but gives limited evidence of leading architecture across a team.",
+        "evidence": [
+          { "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-002-motivation", "excerpt": "I am ready to take broader ownership and strengthen my technical leadership." }
+        ]
+      }
+    ],
+    "criterionScores": [
+      { "criterionKey": "technical_skills", "name": "Technical Skills", "weight": 35, "score": 86, "rationale": "Meets the required stack and demonstrates automated testing experience.", "evidence": [{ "sourceType": "DOCUMENT", "sourceId": "document-002-cv", "excerpt": "React, TypeScript, REST API integration, and Vitest experience." }] },
+      { "criterionKey": "relevant_experience", "name": "Relevant Experience", "weight": 25, "score": 82, "rationale": "Three years is relevant, with leadership scope still to verify.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-002-experience", "excerpt": "Three years of experience." }] },
+      { "criterionKey": "problem_solving", "name": "Problem Solving", "weight": 20, "score": 84, "rationale": "Provides a technically credible debugging example.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-002-problem-solving", "excerpt": "Removed duplicate REST requests caused by effect dependencies." }] },
+      { "criterionKey": "communication", "name": "Communication", "weight": 10, "score": 82, "rationale": "Answers are concise and technically understandable.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-002-project", "excerpt": "Rebuilt a customer support portal and added coverage for its main workflows." }] },
+      { "criterionKey": "role_motivation", "name": "Role Motivation", "weight": 10, "score": 84, "rationale": "Goals align with broader ownership in a senior frontend role.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-002-motivation", "excerpt": "Ready to take broader ownership of accessible React applications." }] }
+    ],
+    "createdAt": "2026-07-12T12:45:00Z"
+  },
+  {
+    "id": "evaluation-screening-003",
+    "applicationId": "application-003",
+    "evaluationType": "SCREENING",
+    "status": "COMPLETED",
+    "overallScore": 72.4,
+    "recommendation": "REVIEW",
+    "confidence": 82,
+    "summary": "Alex has relevant React delivery and full-stack context, but falls below the preferred experience level and provides limited evidence of TypeScript depth or senior frontend ownership.",
+    "strengths": [
+      {
+        "id": "insight-screening-003-strength-01",
+        "title": "End-to-end product perspective",
+        "description": "Alex has delivered both a React client and its supporting Node.js API.",
+        "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-003-project", "excerpt": "I delivered a booking application with a React client and Node.js API." }]
+      },
+      {
+        "id": "insight-screening-003-strength-02",
+        "title": "Scalability awareness",
+        "description": "The application includes a relevant response to growing data volume.",
+        "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-003-problem-solving", "excerpt": "I added request caching and pagination when the booking history page became slow." }]
+      }
+    ],
+    "concerns": [
+      {
+        "id": "insight-screening-003-concern-01",
+        "title": "Experience below target",
+        "description": "The role asks for at least three years of React experience; Alex reports two and a half years overall.",
+        "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-003-experience", "excerpt": "Two and a half years of experience." }]
+      },
+      {
+        "id": "insight-screening-003-concern-02",
+        "title": "TypeScript depth is unclear",
+        "description": "The CV emphasizes JavaScript and Node.js without clear TypeScript evidence.",
+        "evidence": [{ "sourceType": "DOCUMENT", "sourceId": "document-003-cv", "excerpt": "Primary listed technologies are React, JavaScript, Node.js, and Express." }]
+      }
+    ],
+    "criterionScores": [
+      { "criterionKey": "technical_skills", "name": "Technical Skills", "weight": 35, "score": 74, "rationale": "Relevant React and API skills, with TypeScript depth unclear.", "evidence": [{ "sourceType": "DOCUMENT", "sourceId": "document-003-cv", "excerpt": "React, JavaScript, Node.js, and Express project experience." }] },
+      { "criterionKey": "relevant_experience", "name": "Relevant Experience", "weight": 25, "score": 68, "rationale": "Useful experience but below the role's minimum React target.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-003-experience", "excerpt": "Two and a half years of experience." }] },
+      { "criterionKey": "problem_solving", "name": "Problem Solving", "weight": 20, "score": 75, "rationale": "Caching and pagination are credible responses to data growth.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-003-problem-solving", "excerpt": "Added request caching and pagination as records increased." }] },
+      { "criterionKey": "communication", "name": "Communication", "weight": 10, "score": 70, "rationale": "Answers communicate outcomes but offer limited detail on tradeoffs.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-003-project", "excerpt": "Delivered a booking application with a React client and Node.js API." }] },
+      { "criterionKey": "role_motivation", "name": "Role Motivation", "weight": 10, "score": 75, "rationale": "Shows a specific desire to deepen frontend specialization.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-003-motivation", "excerpt": "I want to specialize further in frontend engineering." }] }
+    ],
+    "createdAt": "2026-07-13T08:25:00Z"
+  },
+  {
+    "id": "evaluation-screening-004",
+    "applicationId": "application-004",
+    "evaluationType": "SCREENING",
+    "status": "COMPLETED",
+    "overallScore": 50.3,
+    "recommendation": "NO",
+    "confidence": 91,
+    "summary": "David shows a useful web foundation and learning motivation, but does not yet meet the React, TypeScript, or senior experience requirements for this opening.",
+    "strengths": [
+      {
+        "id": "insight-screening-004-strength-01",
+        "title": "Solid web fundamentals",
+        "description": "David has practical experience with responsive interfaces and browser compatibility.",
+        "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-004-project", "excerpt": "I built responsive marketing pages and interactive forms using JavaScript, HTML, and CSS." }]
+      }
+    ],
+    "concerns": [
+      {
+        "id": "insight-screening-004-concern-01",
+        "title": "Core framework requirements are not met",
+        "description": "The submitted materials do not show production React or TypeScript experience.",
+        "evidence": [{ "sourceType": "DOCUMENT", "sourceId": "document-004-cv", "excerpt": "Skills focus on JavaScript, HTML, and CSS; React and TypeScript are not listed." }]
+      },
+      {
+        "id": "insight-screening-004-concern-02",
+        "title": "Experience is junior level",
+        "description": "One year of experience is materially below the senior role requirement.",
+        "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-004-experience", "excerpt": "One year of experience." }]
+      }
+    ],
+    "criterionScores": [
+      { "criterionKey": "technical_skills", "name": "Technical Skills", "weight": 35, "score": 45, "rationale": "Web fundamentals are present, but required React and TypeScript evidence is absent.", "evidence": [{ "sourceType": "DOCUMENT", "sourceId": "document-004-cv", "excerpt": "JavaScript, HTML, and CSS experience." }] },
+      { "criterionKey": "relevant_experience", "name": "Relevant Experience", "weight": 25, "score": 40, "rationale": "Experience level is substantially below the senior target.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-004-experience", "excerpt": "One year of experience." }] },
+      { "criterionKey": "problem_solving", "name": "Problem Solving", "weight": 20, "score": 55, "rationale": "The browser compatibility example is valid but limited in technical depth.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-004-problem-solving", "excerpt": "Fixed cross-browser layout problems by simplifying the CSS grid." }] },
+      { "criterionKey": "communication", "name": "Communication", "weight": 10, "score": 65, "rationale": "Application answers are clear and direct.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-004-project", "excerpt": "Built responsive marketing pages and interactive forms." }] },
+      { "criterionKey": "role_motivation", "name": "Role Motivation", "weight": 10, "score": 70, "rationale": "Motivation is genuine, though framed primarily around learning the required framework.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-004-motivation", "excerpt": "I want to learn React on a larger engineering team." }] }
+    ],
+    "createdAt": "2026-07-13T11:10:00Z"
+  },
+  {
+    "id": "evaluation-screening-005",
+    "applicationId": "application-005",
+    "evaluationType": "SCREENING",
+    "status": "COMPLETED",
+    "overallScore": 39.8,
+    "recommendation": "STRONG_NO",
+    "confidence": 95,
+    "summary": "Sarah's design background is valuable but does not match the engineering scope or required React, TypeScript, and API integration experience for this role.",
+    "strengths": [
+      {
+        "id": "insight-screening-005-strength-01",
+        "title": "Strong visual design workflow",
+        "description": "Sarah demonstrates reusable design practices and cross-team handoff awareness.",
+        "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-005-problem-solving", "excerpt": "I created reusable Figma templates to reduce inconsistent handoffs." }]
+      }
+    ],
+    "concerns": [
+      {
+        "id": "insight-screening-005-concern-01",
+        "title": "Professional background does not match the role",
+        "description": "The experience presented is in graphic design rather than frontend software engineering.",
+        "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-005-current-position", "excerpt": "Graphic Designer." }]
+      },
+      {
+        "id": "insight-screening-005-concern-02",
+        "title": "Required technical skills are absent",
+        "description": "The CV contains no evidence of React, TypeScript, or REST API integration.",
+        "evidence": [{ "sourceType": "DOCUMENT", "sourceId": "document-005-cv", "excerpt": "Skills listed are Figma, Illustrator, and Photoshop." }]
+      }
+    ],
+    "criterionScores": [
+      { "criterionKey": "technical_skills", "name": "Technical Skills", "weight": 35, "score": 25, "rationale": "No evidence of the required frontend engineering stack.", "evidence": [{ "sourceType": "DOCUMENT", "sourceId": "document-005-cv", "excerpt": "Figma, Illustrator, and Photoshop are the primary tools listed." }] },
+      { "criterionKey": "relevant_experience", "name": "Relevant Experience", "weight": 25, "score": 30, "rationale": "Professional experience is not directly relevant to senior React development.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-005-current-position", "excerpt": "Graphic Designer." }] },
+      { "criterionKey": "problem_solving", "name": "Problem Solving", "weight": 20, "score": 55, "rationale": "Shows process improvement, but not in a software engineering context.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-005-problem-solving", "excerpt": "Created reusable Figma templates to reduce inconsistent handoffs." }] },
+      { "criterionKey": "communication", "name": "Communication", "weight": 10, "score": 65, "rationale": "Answers are clear and understandable.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-005-project", "excerpt": "Created the visual identity and campaign assets for a regional retail launch." }] },
+      { "criterionKey": "role_motivation", "name": "Role Motivation", "weight": 10, "score": 60, "rationale": "Interest in product development is clear, but preparation for this senior engineering role is not demonstrated.", "evidence": [{ "sourceType": "APPLICATION_ANSWER", "sourceId": "answer-005-motivation", "excerpt": "I would like to move from visual design into digital product development." }] }
+    ],
+    "createdAt": "2026-07-14T09:15:00Z"
+  },
+  {
+    "id": "evaluation-final-001",
+    "applicationId": "application-001",
+    "evaluationType": "FINAL",
+    "status": "COMPLETED",
+    "overallScore": 86.2,
+    "recommendation": "YES",
+    "confidence": 87,
+    "summary": "John demonstrated strong frontend architecture knowledge, clear ownership, and credible performance debugging. He should proceed, with testing depth and backend boundaries clarified during final human review.",
+    "strengths": [
+      {
+        "id": "insight-final-001-strength-01",
+        "title": "Strong frontend technical knowledge",
+        "description": "John explains component boundaries, server-state handling, and REST integration tradeoffs clearly.",
+        "evidence": [
+          { "sourceType": "TRANSCRIPT_SEGMENT", "sourceId": "segment-001-04", "excerpt": "I separated server state from local interface state and kept feature boundaries explicit.", "timestampLabel": "01:30" },
+          { "sourceType": "TRANSCRIPT_SEGMENT", "sourceId": "segment-001-06", "excerpt": "We used a typed API client and normalized error handling at the request boundary.", "timestampLabel": "02:21" }
+        ]
+      },
+      {
+        "id": "insight-final-001-strength-02",
+        "title": "Clear project ownership",
+        "description": "He distinguishes the technical decisions he owned from work shared with the wider team.",
+        "evidence": [{ "sourceType": "TRANSCRIPT_SEGMENT", "sourceId": "segment-001-02", "excerpt": "I owned the React architecture, the frontend delivery plan, and reviews for three other developers.", "timestampLabel": "00:32" }]
+      },
+      {
+        "id": "insight-final-001-strength-03",
+        "title": "Concrete performance debugging example",
+        "description": "John describes measurement, root-cause analysis, and a quantified result.",
+        "evidence": [{ "sourceType": "TRANSCRIPT_SEGMENT", "sourceId": "segment-001-08", "excerpt": "The change reduced median interaction latency from 420 milliseconds to about 230 milliseconds.", "timestampLabel": "03:22" }]
+      },
+      {
+        "id": "insight-final-001-strength-04",
+        "title": "Good technical communication",
+        "description": "His answers use concrete examples and communicate tradeoffs without overstating responsibility.",
+        "evidence": [{ "sourceType": "TRANSCRIPT_SEGMENT", "sourceId": "segment-001-12", "excerpt": "I wrote a short decision note, walked the team through the tradeoff, and invited challenges before implementation.", "timestampLabel": "05:26" }]
+      }
+    ],
+    "concerns": [
+      {
+        "id": "insight-final-001-concern-01",
+        "title": "Backend implementation responsibility remains unclear",
+        "description": "John integrated with APIs but did not own the backend service implementation.",
+        "evidence": [{ "sourceType": "TRANSCRIPT_SEGMENT", "sourceId": "segment-001-14", "excerpt": "I collaborated on API contracts, but the backend team owned service implementation and database changes.", "timestampLabel": "06:23" }]
+      },
+      {
+        "id": "insight-final-001-concern-02",
+        "title": "Automated testing experience is limited",
+        "description": "He has component and integration testing experience but limited ownership of broader test strategy.",
+        "evidence": [{ "sourceType": "TRANSCRIPT_SEGMENT", "sourceId": "segment-001-16", "excerpt": "I wrote component and integration tests, but I have not yet owned an end-to-end testing strategy.", "timestampLabel": "07:20" }]
+      }
+    ],
+    "criterionScores": [
+      { "criterionKey": "technical_skills", "name": "Technical Skills", "weight": 35, "score": 88, "rationale": "Strong React architecture and API integration, with testing breadth as a development area.", "evidence": [{ "sourceType": "TRANSCRIPT_SEGMENT", "sourceId": "segment-001-04", "excerpt": "Separated server state from local interface state and kept feature boundaries explicit.", "timestampLabel": "01:30" }] },
+      { "criterionKey": "relevant_experience", "name": "Relevant Experience", "weight": 25, "score": 86, "rationale": "Demonstrates ownership of a relevant multi-site frontend product and team review responsibilities.", "evidence": [{ "sourceType": "TRANSCRIPT_SEGMENT", "sourceId": "segment-001-02", "excerpt": "Owned the React architecture, frontend delivery plan, and reviews for three developers.", "timestampLabel": "00:32" }] },
+      { "criterionKey": "problem_solving", "name": "Problem Solving", "weight": 20, "score": 87, "rationale": "Uses profiling evidence and quantifies the performance result.", "evidence": [{ "sourceType": "TRANSCRIPT_SEGMENT", "sourceId": "segment-001-08", "excerpt": "Reduced median interaction latency from 420 milliseconds to about 230 milliseconds.", "timestampLabel": "03:22" }] },
+      { "criterionKey": "communication", "name": "Communication", "weight": 10, "score": 85, "rationale": "Explains decisions, constraints, and collaboration clearly.", "evidence": [{ "sourceType": "TRANSCRIPT_SEGMENT", "sourceId": "segment-001-12", "excerpt": "Walked the team through the tradeoff and invited challenges before implementation.", "timestampLabel": "05:26" }] },
+      { "criterionKey": "role_motivation", "name": "Role Motivation", "weight": 10, "score": 80, "rationale": "Motivation aligns with frontend ownership and mentorship.", "evidence": [{ "sourceType": "TRANSCRIPT_SEGMENT", "sourceId": "segment-001-10", "excerpt": "I want a role where I can stay hands-on while helping a frontend team make consistent decisions.", "timestampLabel": "04:25" }] }
+    ],
+    "createdAt": "2026-07-16T11:15:00Z"
+  }
+]

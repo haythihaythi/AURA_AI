@@ -1,0 +1,92 @@
+[
+  {
+    "id": "application-001",
+    "jobId": "job-001",
+    "candidateId": "candidate-001",
+    "status": "INTERVIEWING",
+    "currentStage": "INTERVIEW",
+    "answers": [
+      { "id": "answer-001-current-position", "fieldKey": "currentPosition", "label": "Current Position", "value": "Frontend Developer" },
+      { "id": "answer-001-experience", "fieldKey": "yearsExperience", "label": "Years of Experience", "value": 4 },
+      { "id": "answer-001-motivation", "fieldKey": "roleMotivation", "label": "Role Motivation", "value": "I want to lead the development of reliable React products while mentoring a growing frontend team." },
+      { "id": "answer-001-project", "fieldKey": "bestProject", "label": "Best Project", "value": "I led the frontend development of an inventory platform used across twelve warehouses." },
+      { "id": "answer-001-problem-solving", "fieldKey": "problemSolving", "label": "Problem Solving Example", "value": "I traced slow dashboard renders to repeated data transformations, introduced memoized selectors, and reduced interaction latency by 45 percent." }
+    ],
+    "documents": [
+      { "id": "document-001-cv", "documentType": "CV", "fileName": "john-doe-cv.pdf", "filePath": "/demo/cvs/john-doe-cv.pdf" }
+    ],
+    "submittedAt": "2026-07-12T10:15:00Z"
+  },
+  {
+    "id": "application-002",
+    "jobId": "job-001",
+    "candidateId": "candidate-002",
+    "status": "INTERVIEWING",
+    "currentStage": "INTERVIEW",
+    "answers": [
+      { "id": "answer-002-current-position", "fieldKey": "currentPosition", "label": "Current Position", "value": "Frontend Engineer" },
+      { "id": "answer-002-experience", "fieldKey": "yearsExperience", "label": "Years of Experience", "value": 3 },
+      { "id": "answer-002-motivation", "fieldKey": "roleMotivation", "label": "Role Motivation", "value": "I am ready to take broader ownership of accessible React applications and strengthen my technical leadership." },
+      { "id": "answer-002-project", "fieldKey": "bestProject", "label": "Best Project", "value": "I rebuilt a customer support portal in React and TypeScript and added Vitest coverage for its main workflows." },
+      { "id": "answer-002-problem-solving", "fieldKey": "problemSolving", "label": "Problem Solving Example", "value": "I diagnosed duplicate REST requests caused by effect dependencies and removed them without changing user behavior." }
+    ],
+    "documents": [
+      { "id": "document-002-cv", "documentType": "CV", "fileName": "mary-smith-cv.pdf", "filePath": "/demo/cvs/mary-smith-cv.pdf" }
+    ],
+    "submittedAt": "2026-07-12T12:40:00Z"
+  },
+  {
+    "id": "application-003",
+    "jobId": "job-001",
+    "candidateId": "candidate-003",
+    "status": "IN_REVIEW",
+    "currentStage": "SHORTLIST_REVIEW",
+    "answers": [
+      { "id": "answer-003-current-position", "fieldKey": "currentPosition", "label": "Current Position", "value": "Full Stack Developer" },
+      { "id": "answer-003-experience", "fieldKey": "yearsExperience", "label": "Years of Experience", "value": 2.5 },
+      { "id": "answer-003-motivation", "fieldKey": "roleMotivation", "label": "Role Motivation", "value": "I want to specialize further in frontend engineering while keeping a practical understanding of API development." },
+      { "id": "answer-003-project", "fieldKey": "bestProject", "label": "Best Project", "value": "I delivered a booking application with a React client and Node.js API for a small services company." },
+      { "id": "answer-003-problem-solving", "fieldKey": "problemSolving", "label": "Problem Solving Example", "value": "I added request caching and pagination when the booking history page became slow as records increased." }
+    ],
+    "documents": [
+      { "id": "document-003-cv", "documentType": "CV", "fileName": "alex-chen-cv.pdf", "filePath": "/demo/cvs/alex-chen-cv.pdf" }
+    ],
+    "submittedAt": "2026-07-13T08:20:00Z"
+  },
+  {
+    "id": "application-004",
+    "jobId": "job-001",
+    "candidateId": "candidate-004",
+    "status": "IN_REVIEW",
+    "currentStage": "SHORTLIST_REVIEW",
+    "answers": [
+      { "id": "answer-004-current-position", "fieldKey": "currentPosition", "label": "Current Position", "value": "Junior Web Developer" },
+      { "id": "answer-004-experience", "fieldKey": "yearsExperience", "label": "Years of Experience", "value": 1 },
+      { "id": "answer-004-motivation", "fieldKey": "roleMotivation", "label": "Role Motivation", "value": "I want to learn React on a larger engineering team and grow into a frontend specialist." },
+      { "id": "answer-004-project", "fieldKey": "bestProject", "label": "Best Project", "value": "I built responsive marketing pages and interactive forms using JavaScript, HTML, and CSS." },
+      { "id": "answer-004-problem-solving", "fieldKey": "problemSolving", "label": "Problem Solving Example", "value": "I fixed cross-browser layout problems by simplifying the CSS grid and testing the supported browsers." }
+    ],
+    "documents": [
+      { "id": "document-004-cv", "documentType": "CV", "fileName": "david-lee-cv.pdf", "filePath": "/demo/cvs/david-lee-cv.pdf" }
+    ],
+    "submittedAt": "2026-07-13T11:05:00Z"
+  },
+  {
+    "id": "application-005",
+    "jobId": "job-001",
+    "candidateId": "candidate-005",
+    "status": "IN_REVIEW",
+    "currentStage": "SHORTLIST_REVIEW",
+    "answers": [
+      { "id": "answer-005-current-position", "fieldKey": "currentPosition", "label": "Current Position", "value": "Graphic Designer" },
+      { "id": "answer-005-experience", "fieldKey": "yearsExperience", "label": "Years of Experience", "value": 2 },
+      { "id": "answer-005-motivation", "fieldKey": "roleMotivation", "label": "Role Motivation", "value": "I would like to move from visual design into digital product development." },
+      { "id": "answer-005-project", "fieldKey": "bestProject", "label": "Best Project", "value": "I created the visual identity and campaign assets for a regional retail launch." },
+      { "id": "answer-005-problem-solving", "fieldKey": "problemSolving", "label": "Problem Solving Example", "value": "I created reusable Figma templates to reduce inconsistent handoffs across campaign designers." }
+    ],
+    "documents": [
+      { "id": "document-005-cv", "documentType": "CV", "fileName": "sarah-kim-cv.pdf", "filePath": "/demo/cvs/sarah-kim-cv.pdf" }
+    ],
+    "submittedAt": "2026-07-14T09:10:00Z"
+  }
+]

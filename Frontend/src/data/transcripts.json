@@ -1,0 +1,155 @@
+[
+  {
+    "id": "transcript-001",
+    "interviewId": "interview-001",
+    "status": "COMPLETED",
+    "languageCode": "en-US",
+    "fullText": "Alice Morgan: Tell me about the inventory platform and the decisions you personally owned. John Doe: I owned the React architecture, the frontend delivery plan, and reviews for three other developers. Robert Chen: How did you organize state as the product grew across twelve warehouses? John Doe: I separated server state from local interface state and kept feature boundaries explicit. Alice Morgan: How did the client integrate with warehouse and inventory services? John Doe: We used a typed API client and normalized error handling at the request boundary. Robert Chen: Your application mentions a major interaction latency improvement. What did you find? John Doe: Profiling showed repeated transformations after each inventory update. The change reduced median interaction latency from 420 milliseconds to about 230 milliseconds. Alice Morgan: What are you looking for in your next role? John Doe: I want a role where I can stay hands-on while helping a frontend team make consistent decisions. Robert Chen: Tell us about a decision your team challenged. John Doe: I wrote a short decision note, walked the team through the tradeoff, and invited challenges before implementation. Alice Morgan: How much backend implementation did you own? John Doe: I collaborated on API contracts, but the backend team owned service implementation and database changes. Robert Chen: What automated testing responsibilities did you have? John Doe: I wrote component and integration tests, but I have not yet owned an end-to-end testing strategy.",
+    "segments": [
+      {
+        "id": "segment-001-01",
+        "sequenceNo": 1,
+        "speakerName": "Alice Morgan",
+        "speakerType": "INTERVIEWER",
+        "startMs": 0,
+        "endMs": 23500,
+        "text": "Tell me about the inventory platform and the decisions you personally owned."
+      },
+      {
+        "id": "segment-001-02",
+        "sequenceNo": 2,
+        "speakerName": "John Doe",
+        "speakerType": "CANDIDATE",
+        "startMs": 32000,
+        "endMs": 71000,
+        "text": "I owned the React architecture, the frontend delivery plan, and reviews for three other developers. I also coordinated releases with the warehouse operations team."
+      },
+      {
+        "id": "segment-001-03",
+        "sequenceNo": 3,
+        "speakerName": "Robert Chen",
+        "speakerType": "INTERVIEWER",
+        "startMs": 76000,
+        "endMs": 85200,
+        "text": "How did you organize state as the product grew across twelve warehouses?"
+      },
+      {
+        "id": "segment-001-04",
+        "sequenceNo": 4,
+        "speakerName": "John Doe",
+        "speakerType": "CANDIDATE",
+        "startMs": 90000,
+        "endMs": 128000,
+        "text": "I separated server state from local interface state and kept feature boundaries explicit. Shared inventory queries lived behind hooks, while temporary form state stayed close to the screens that owned it."
+      },
+      {
+        "id": "segment-001-05",
+        "sequenceNo": 5,
+        "speakerName": "Alice Morgan",
+        "speakerType": "INTERVIEWER",
+        "startMs": 132000,
+        "endMs": 138500,
+        "text": "How did the client integrate with warehouse and inventory services?"
+      },
+      {
+        "id": "segment-001-06",
+        "sequenceNo": 6,
+        "speakerName": "John Doe",
+        "speakerType": "CANDIDATE",
+        "startMs": 141000,
+        "endMs": 180000,
+        "text": "We used a typed API client and normalized error handling at the request boundary. Each feature translated API responses into its own view model, and retry behavior was limited to safe read requests."
+      },
+      {
+        "id": "segment-001-07",
+        "sequenceNo": 7,
+        "speakerName": "Robert Chen",
+        "speakerType": "INTERVIEWER",
+        "startMs": 185000,
+        "endMs": 198500,
+        "text": "Your application mentions a major interaction latency improvement. What did you measure and find?"
+      },
+      {
+        "id": "segment-001-08",
+        "sequenceNo": 8,
+        "speakerName": "John Doe",
+        "speakerType": "CANDIDATE",
+        "startMs": 202000,
+        "endMs": 248000,
+        "text": "Profiling showed repeated transformations after each inventory update. I moved the transformation into memoized selectors and reduced unnecessary subscriptions. The change reduced median interaction latency from 420 milliseconds to about 230 milliseconds."
+      },
+      {
+        "id": "segment-001-09",
+        "sequenceNo": 9,
+        "speakerName": "Alice Morgan",
+        "speakerType": "INTERVIEWER",
+        "startMs": 252000,
+        "endMs": 260000,
+        "text": "What are you looking for in your next role?"
+      },
+      {
+        "id": "segment-001-10",
+        "sequenceNo": 10,
+        "speakerName": "John Doe",
+        "speakerType": "CANDIDATE",
+        "startMs": 265000,
+        "endMs": 301000,
+        "text": "I want a role where I can stay hands-on while helping a frontend team make consistent decisions. Mentoring is important to me, but I still want direct responsibility for delivery."
+      },
+      {
+        "id": "segment-001-11",
+        "sequenceNo": 11,
+        "speakerName": "Robert Chen",
+        "speakerType": "INTERVIEWER",
+        "startMs": 306000,
+        "endMs": 320000,
+        "text": "Tell us about a technical decision your team challenged and how you reached agreement."
+      },
+      {
+        "id": "segment-001-12",
+        "sequenceNo": 12,
+        "speakerName": "John Doe",
+        "speakerType": "CANDIDATE",
+        "startMs": 326000,
+        "endMs": 365000,
+        "text": "I proposed replacing a large shared store with feature-level ownership. I wrote a short decision note, walked the team through the tradeoff, and invited challenges before implementation. We tested the approach in one feature before adopting it."
+      },
+      {
+        "id": "segment-001-13",
+        "sequenceNo": 13,
+        "speakerName": "Alice Morgan",
+        "speakerType": "INTERVIEWER",
+        "startMs": 370000,
+        "endMs": 379500,
+        "text": "How much backend implementation did you own on that product?"
+      },
+      {
+        "id": "segment-001-14",
+        "sequenceNo": 14,
+        "speakerName": "John Doe",
+        "speakerType": "CANDIDATE",
+        "startMs": 383000,
+        "endMs": 415000,
+        "text": "I collaborated on API contracts, but the backend team owned service implementation and database changes. I built small Node.js tools for local development, not production services."
+      },
+      {
+        "id": "segment-001-15",
+        "sequenceNo": 15,
+        "speakerName": "Robert Chen",
+        "speakerType": "INTERVIEWER",
+        "startMs": 420000,
+        "endMs": 435000,
+        "text": "What automated testing responsibilities did you have?"
+      },
+      {
+        "id": "segment-001-16",
+        "sequenceNo": 16,
+        "speakerName": "John Doe",
+        "speakerType": "CANDIDATE",
+        "startMs": 440000,
+        "endMs": 480000,
+        "text": "I wrote component and integration tests, but I have not yet owned an end-to-end testing strategy. I contributed to test reviews and helped stabilize several unreliable integration tests."
+      }
+    ]
+  }
+]

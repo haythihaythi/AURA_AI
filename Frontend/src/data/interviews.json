@@ -1,0 +1,100 @@
+[
+  {
+    "id": "interview-001",
+    "applicationId": "application-001",
+    "scheduledStart": "2026-07-16T10:00:00Z",
+    "scheduledEnd": "2026-07-16T11:00:00Z",
+    "timezone": "UTC",
+    "status": "COMPLETED",
+    "interviewers": [
+      { "id": "interviewer-001", "name": "Alice Morgan", "role": "Lead Technical Interviewer" },
+      { "id": "interviewer-002", "name": "Robert Chen", "role": "Engineering Manager" }
+    ],
+    "questions": [
+      {
+        "id": "question-001-01",
+        "type": "CORE",
+        "question": "You mentioned leading frontend work on an inventory platform. What technical decisions did you personally own?",
+        "reason": "Establish the candidate's individual ownership and seniority.",
+        "sourceContext": "answer-001-project"
+      },
+      {
+        "id": "question-001-02",
+        "type": "CORE",
+        "question": "What kind of frontend role and team responsibilities are you looking for next?",
+        "reason": "Clarify alignment with the role's hands-on leadership expectations.",
+        "sourceContext": "answer-001-motivation"
+      },
+      {
+        "id": "question-001-03",
+        "type": "TECHNICAL",
+        "question": "How did you structure React state and feature boundaries for the inventory platform?",
+        "reason": "Assess React architecture depth in a project the candidate knows well.",
+        "sourceContext": "document-001-cv"
+      },
+      {
+        "id": "question-001-04",
+        "type": "TECHNICAL",
+        "question": "How did the frontend integrate with REST APIs, and where did you handle loading and error states?",
+        "reason": "Verify required REST API integration experience.",
+        "sourceContext": "document-001-cv"
+      },
+      {
+        "id": "question-001-05",
+        "type": "BEHAVIORAL",
+        "question": "Tell us about a technical decision your team challenged and how you reached agreement.",
+        "reason": "Evaluate collaboration and technical communication.",
+        "sourceContext": "answer-001-motivation"
+      },
+      {
+        "id": "question-001-06",
+        "type": "VERIFICATION",
+        "question": "Your application cites a 45 percent latency improvement. How did you measure the baseline and confirm the result?",
+        "reason": "Verify the scope and measurement behind the performance claim.",
+        "sourceContext": "answer-001-problem-solving"
+      }
+    ]
+  },
+  {
+    "id": "interview-002",
+    "applicationId": "application-002",
+    "scheduledStart": "2026-07-17T14:00:00Z",
+    "scheduledEnd": "2026-07-17T14:45:00Z",
+    "timezone": "UTC",
+    "status": "SCHEDULED",
+    "interviewers": [
+      { "id": "interviewer-001", "name": "Alice Morgan", "role": "Lead Technical Interviewer" },
+      { "id": "interviewer-002", "name": "Robert Chen", "role": "Engineering Manager" }
+    ],
+    "questions": [
+      {
+        "id": "question-002-01",
+        "type": "CORE",
+        "question": "What ownership did you have during the customer support portal rebuild?",
+        "reason": "Clarify Mary's delivery scope and seniority.",
+        "sourceContext": "answer-002-project"
+      },
+      {
+        "id": "question-002-02",
+        "type": "TECHNICAL",
+        "question": "How did you decide what to cover with Vitest and what to test at another level?",
+        "reason": "Explore a preferred skill and testing judgment.",
+        "sourceContext": "answer-002-project"
+      },
+      {
+        "id": "question-002-03",
+        "type": "BEHAVIORAL",
+        "question": "Describe a time you influenced a frontend decision without formal authority.",
+        "reason": "Assess readiness for broader technical leadership.",
+        "sourceContext": "answer-002-motivation"
+      },
+      {
+        "id": "question-002-04",
+        "type": "VERIFICATION",
+        "question": "How did you confirm that changing the effect dependencies removed duplicate requests without introducing stale data?",
+        "reason": "Verify the depth of the submitted REST debugging example.",
+        "sourceContext": "answer-002-problem-solving"
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "candidate-001",
+    "fullName": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1-555-0101",
+    "currentPosition": "Frontend Developer",
+    "yearsExperience": 4,
+    "skills": ["React", "TypeScript", "Next.js", "REST API Integration"],
+    "location": "Austin, TX"
+  },
+  {
+    "id": "candidate-002",
+    "fullName": "Mary Smith",
+    "email": "mary.smith@example.com",
+    "phone": "+1-555-0102",
+    "currentPosition": "Frontend Engineer",
+    "yearsExperience": 3,
+    "skills": ["React", "TypeScript", "Vitest", "REST API Integration"],
+    "location": "Denver, CO"
+  },
+  {
+    "id": "candidate-003",
+    "fullName": "Alex Chen",
+    "email": "alex.chen@example.com",
+    "phone": "+1-555-0103",
+    "currentPosition": "Full Stack Developer",
+    "yearsExperience": 2.5,
+    "skills": ["React", "JavaScript", "Node.js", "Express"],
+    "location": "Seattle, WA"
+  },
+  {
+    "id": "candidate-004",
+    "fullName": "David Lee",
+    "email": "david.lee@example.com",
+    "phone": "+1-555-0104",
+    "currentPosition": "Junior Web Developer",
+    "yearsExperience": 1,
+    "skills": ["JavaScript", "HTML", "CSS"],
+    "location": "Chicago, IL"
+  },
+  {
+    "id": "candidate-005",
+    "fullName": "Sarah Kim",
+    "email": "sarah.kim@example.com",
+    "phone": "+1-555-0105",
+    "currentPosition": "Graphic Designer",
+    "yearsExperience": 2,
+    "skills": ["Figma", "Illustrator", "Photoshop"],
+    "location": "Portland, OR"
+  }
+]

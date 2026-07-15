@@ -1,0 +1,44 @@
+[
+  {
+    "id": "rubric-001",
+    "jobId": "job-001",
+    "name": "Senior React Developer Evaluation Rubric",
+    "criteria": [
+      {
+        "key": "technical_skills",
+        "name": "Technical Skills",
+        "description": "Depth in React, TypeScript, API integration, and frontend engineering practices.",
+        "evaluationGuidance": "Look for production experience, sound architecture decisions, and evidence of required skills.",
+        "weight": 35
+      },
+      {
+        "key": "relevant_experience",
+        "name": "Relevant Experience",
+        "description": "Experience delivering frontend products at a level appropriate for a senior role.",
+        "evaluationGuidance": "Consider years, scope, ownership, and similarity to the work described in the role.",
+        "weight": 25
+      },
+      {
+        "key": "problem_solving",
+        "name": "Problem Solving",
+        "description": "Ability to investigate ambiguous technical problems and produce measurable improvements.",
+        "evaluationGuidance": "Prefer specific examples that explain diagnosis, tradeoffs, actions, and outcomes.",
+        "weight": 20
+      },
+      {
+        "key": "communication",
+        "name": "Communication",
+        "description": "Clarity when explaining technical work, decisions, and collaboration.",
+        "evaluationGuidance": "Assess structure, specificity, audience awareness, and collaborative communication.",
+        "weight": 10
+      },
+      {
+        "key": "role_motivation",
+        "name": "Role Motivation",
+        "description": "Alignment between the candidate's goals and the responsibilities of the role.",
+        "evaluationGuidance": "Look for informed interest in the work rather than generic enthusiasm.",
+        "weight": 10
+      }
+    ]
+  }
+]

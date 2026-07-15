@@ -1,0 +1,22 @@
+[
+  {
+    "id": "communication-001",
+    "applicationId": "application-001",
+    "type": "NEXT_ROUND",
+    "to": "john.doe@example.com",
+    "subject": "Next step for the Senior React Developer role",
+    "body": "Hi John,\n\nThank you for speaking with our team about the Senior React Developer role. We enjoyed learning more about your frontend experience and would like to invite you to the next stage of our process. We will contact you shortly with scheduling details.\n\nBest,\nAURA AI Hiring Team",
+    "status": "DRAFT",
+    "aiPersonalized": true
+  },
+  {
+    "id": "communication-002",
+    "applicationId": "application-004",
+    "type": "REJECTED",
+    "to": "david.lee@example.com",
+    "subject": "Update on your Senior React Developer application",
+    "body": "Hi David,\n\nThank you for your interest in the Senior React Developer role and for the time you invested in your application. After reviewing the current needs of the team, we have decided not to move forward with your application. We appreciate the opportunity to learn about your experience and wish you success in your search.\n\nBest,\nAURA AI Hiring Team",
+    "status": "DRAFT",
+    "aiPersonalized": false
+  }
+]
